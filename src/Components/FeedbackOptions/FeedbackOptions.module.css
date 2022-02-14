@@ -1,0 +1,16 @@
+.btn {
+  background-color: yellowgreen;
+  color: white;
+  padding: 5px 10px;
+  font-size: medium;
+  border: 2px solid yellow;
+  border-radius: 5px;
+}
+
+.btn:not(:last-child) {
+  margin-right: 15px;
+}
+
+.btn:hover {
+  background-color: red;
+}
