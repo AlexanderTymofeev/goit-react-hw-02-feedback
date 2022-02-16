@@ -5,6 +5,7 @@
   font-size: medium;
   border: 2px solid yellow;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .btn:not(:last-child) {
@@ -13,4 +14,5 @@
 
 .btn:hover {
   background-color: red;
+  transform: scale(1.1);
 }
